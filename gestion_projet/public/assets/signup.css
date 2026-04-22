@@ -1,0 +1,79 @@
+/* BODY */
+body {
+    font-family: Arial;
+    background: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+form {
+    width: 350px;
+    padding: 25px;
+
+    background: rgba(0, 20, 60, 0.4);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    border: 1px solid rgba(0,255,255,0.2);
+}
+
+/* TITLE */
+h2 {
+    position: absolute;
+    top: 60px;
+    color: #00eaff;
+}
+
+/* INPUT */
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+    background: #0a0f2a;
+    color: white;
+}
+
+/* INPUT FOCUS */
+input:focus {
+    outline: none;
+    border: 1px solid #00eaff;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+    background: linear-gradient(135deg, #00eaff, #007bff);
+    color: white;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    transform: scale(1.03);
+}
+
+/* ERRORS */
+ul {
+    position: absolute;
+    top: 120px;
+    color: red;
+    font-size: 14px;
+}
+
+/* LINK */
+a {
+    position: absolute;
+    bottom: 40px;
+    color: #00eaff;
+    text-decoration: none;
+}

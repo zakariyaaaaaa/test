@@ -1,0 +1,64 @@
+/* CENTER PAGE */
+body {
+    font-family: Arial;
+    background: #020617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+.auth-card {
+    width: 320px;
+    padding: 25px;
+
+    background: rgba(0, 20, 60, 0.4);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    border: 1px solid rgba(0,255,255,0.2);
+}
+
+/* TITLE */
+.auth-card h2 {
+    text-align: center;
+    color: #00eaff;
+}
+
+/* INPUT */
+.auth-card input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+    background: #0a0f2a;
+    color: white;
+}
+
+/* BUTTON */
+.auth-card button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* LINK */
+.auth-card a {
+    text-align: center;
+    font-size: 14px;
+    color: #00eaff;
+}
+
+/* ERROR */
+.error {
+    color: red;
+    text-align: center;
+}
